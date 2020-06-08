@@ -1,0 +1,110 @@
+.about h1{
+    visibility: hidden;
+}
+.about:hover h1{
+    visibility: visible;}
+
+  .education{font-size: 20px;
+   }
+   .subjects{
+       font-size: 20px;
+   } 
+body{
+    background-color: #999999;
+}
+.associations{
+font-size:20px;
+}
+a:link{
+    text-decoration: none;
+    font-size: x-small;
+}
+span{float: right;height: 10px;width: 30px;position: absolute;
+right:30%;}
+.ident{float: right; position: absolute;
+top:17%;margin-right: 35%;font-size: 20px;margin-left: 20%;
+}
+.sidebar{
+    position: absolute;
+    left:0%; top:160px;
+     background-color: #c2bcbca1;
+    width: 20%;
+    font-size:100px;
+    height: 1000px;
+}
+   
+.navbar1>a{
+    font-size:20px;
+    margin-left: 30px;
+}
+.navbar2>a{
+    font-size: 20px;
+    margin-left: 50px;
+    position: absolute;
+    right:30%;
+    top:1%;
+}
+.navbar3>a{
+    font-size: 20px;
+    margin-left: 50px;
+    position: absolute;
+    right:20%;
+    top:1%;}
+.navbar4>a{
+    font-size: 20px;
+    margin-left: 50px;
+    position: absolute;
+    right:10%;top:1%;
+}
+h1{
+    margin-left: 50px;
+}
+.about_icon{
+    height: 30px;
+    width: 30px;
+position: absolute;
+left:9px;
+top:13px;
+}
+.education_icon{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left: 9px;
+}
+.education h1{
+    visibility: hidden;}
+.education:hover h1{
+    visibility: visible;
+}
+.midwife_icon{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left:9px;
+}
+.midwife h1{
+    visibility: hidden;
+}
+.midwife:hover h1{
+    visibility: visible;
+}
+.associations h1{
+    visibility: hidden;
+}
+.associations:hover h1{
+    visibility: visible;
+}
+.associations_icon{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 9px;
+}
+    
+
+
+
+
+
+
