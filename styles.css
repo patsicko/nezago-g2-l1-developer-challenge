@@ -10,7 +10,8 @@
        font-size: 20px;
    } 
 body{
-    background-color: #999999;
+    background-color:#999999;
+    
 }
 .associations{
 font-size:20px;
@@ -19,14 +20,22 @@ a:link{
     text-decoration: none;
     font-size: x-small;
 }
-span{float: right;height: 10px;width: 30px;position: absolute;
+span{float:
+     right;
+     height: 10px;
+     width: 30px;
+     position: absolute;
 right:30%;}
-.ident{float: right; position: absolute;
-top:17%;margin-right: 35%;font-size: 20px;margin-left: 20%;
+.ident{float: right;
+     position: absolute;
+top:17%;
+margin-right: 35%;
+font-size: 20px;
+margin-left: 20%;
 }
 .sidebar{
     position: absolute;
-    left:0%; top:160px;
+    left:0%; top:170px;
      background-color: #c2bcbca1;
     width: 20%;
     font-size:100px;
@@ -34,27 +43,38 @@ top:17%;margin-right: 35%;font-size: 20px;margin-left: 20%;
 }
    
 .navbar1>a{
-    font-size:20px;
+    font-size:30px;
     margin-left: 30px;
+    position: absolute;
+    top: 5%;
+
+   
+}
+.navbarp>a{
+    font-size: 30px;
+    margin-left: 50px;
+    position: absolute;
+    right: 80%;
+    top:5%;
 }
 .navbar2>a{
-    font-size: 20px;
+    font-size: 30px;
     margin-left: 50px;
     position: absolute;
     right:30%;
-    top:1%;
+    top:5%;
 }
 .navbar3>a{
-    font-size: 20px;
+    font-size: 30px;
     margin-left: 50px;
     position: absolute;
     right:20%;
-    top:1%;}
+    top:5%;}
 .navbar4>a{
-    font-size: 20px;
+    font-size: 30px;
     margin-left: 50px;
     position: absolute;
-    right:10%;top:1%;
+    right:10%;top:5%;
 }
 h1{
     margin-left: 50px;
@@ -101,7 +121,60 @@ top:13px;
     position: absolute;
     left: 9px;
 }
-    
+.focal_icon{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 9px;
+}
+.focal h1{
+    visibility: hidden;
+}
+.focal:hover h1{
+    visibility: visible;
+}
+.incharge_icon{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left:9px;
+}
+.incharge h1{
+    visibility: hidden;
+}
+.incharge:hover h1{
+    visibility: visible;
+}
+.trainings_icon{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 9px;
+}
+.trainings h1{
+    visibility: hidden;
+}
+.trainings:hover h1{
+    visibility: visible;
+}
+.navigation{
+    background-color: yellow;
+  
+ 
+}
+
+.assoc>li{font-size: 40px;}
+.paragraph{
+    font-size: 20px;
+    position: absolute;
+    top: 110px;
+    margin-left: 350px;
+}
+.heading{
+    position: absolute;
+    right: 48%;
+}
+
 
 
 
