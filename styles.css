@@ -164,20 +164,21 @@ top:13px;
     visibility: visible;
 }
 .navigation{
-    background-color: #7a7a76;
+    background-color: #ebeeec;
     height: 100px;
     width: 100%;
     margin-top: 0%;
     position: fixed;
-  
- 
+}
+nav>a{
+    color: #5d81e4;
 }
 
 .assoc>li{font-size: 40px;}
 .paragraph{
     font-size: 20px;
     position: absolute;
-    top: 110px;
+    top: 200px;
     margin-left: 350px;
     margin-right: 350px;
     border: 1px solid black;
@@ -213,8 +214,19 @@ top:13px;
     font-size: inherit;
     position: relative;
     top: 0px;
-    
    
+}
+.address{
+    position: absolute;
+    right:30%;
+    top: 120px;
+    font-size: 20px;
+    
+    
+}
+.address_icon{
+    width: 30px;
+    height: 30px;
 }
 
 
